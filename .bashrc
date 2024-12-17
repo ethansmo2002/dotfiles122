@@ -26,8 +26,6 @@ for f in ~/.config/shellconfig/*; do source "$f"; done
 source /home/brodie/.config/broot/launcher/bash/br
 source ~/scripts/goto.sh
 
-# Starship Prompt
-eval "$(starship init bash)"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
